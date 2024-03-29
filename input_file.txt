@@ -1,17 +1,22 @@
-
 #include <iostream>
 using namespace std;
 
+// Function to calculate the sum of two integers
 int calculate_sum(int a, int b) {
-return a + b;
+    // This function adds two numbers
+    return a + b;
 }
 
-// Main function
+// Main function where the program begins execution
 int main() {
-int num1 = 10;
-int num2 = 20;
+    int num1 = 10; // First number for sum
+    int num2 = 20; // Second number for sum
 
-int result = calculate_sum(num1, num2);
+    // Calculate the sum of num1 and num2
+    int result = calculate_sum(num1, num2);
 
-cout << "Sum: " << result << endl;
-return 0;
+    // Output the result to the console
+    cout << "Sum: " << result << endl;
+
+    return 0; // Indicate that the program ended successfully
+}
