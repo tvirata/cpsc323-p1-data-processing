@@ -16,7 +16,7 @@ int main() {
     vector<string> literals;
 
     int i = 0;
-    inFile.open("input.txt");
+    inFile.open("input_file.txt");
     while(!inFile.eof()) { 
         inFile >> temp[i];
         i++;
